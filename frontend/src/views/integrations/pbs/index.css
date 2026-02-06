@@ -1,0 +1,46 @@
+.pbs-projects-title{
+    font-size: 14pt;
+    font-weight: bold;
+}
+td,th{
+    font-family: sans-serif;
+
+}
+.data-row:hover{
+    background-color: rgb(247, 162, 131);
+    cursor: pointer;
+    color: black;
+    
+}
+
+.pbs-data-table{
+    margin-top: 25px;
+}
+.data-row{
+text-transform: capitalize;
+}
+.download-img{
+    width: 50px;
+    height: 60px;
+    cursor: pointer;
+    margin-left: auto;
+}
+.download-label:hover{
+    font-weight: bold;
+}
+.responses-options-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    margin-top: 2%;
+}
+
+.table-div{
+        width: 100%;
+    height: fit-content;
+    font-family: sans-serif;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}

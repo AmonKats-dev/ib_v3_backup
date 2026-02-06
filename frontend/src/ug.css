@@ -1,0 +1,51 @@
+.dhx_config_free .dhx_config_item:nth-child(1) > .item_body {
+  background: green;
+}
+.dhx_config_free .dhx_config_item:nth-child(2) > .item_body {
+  background: green;
+}
+.dhx_config_free .dhx_config_item:nth-child(3) > .item_body {
+  background: green;
+}
+.dhx_config_free .dhx_config_item:nth-child(4) > .item_body {
+  background: green;
+}
+.dhx_config_free .dhx_config_item:nth-child(5) > .item_body {
+  background: green;
+}
+.dhx_config_free .dhx_config_item:nth-child(6) > .item_body {
+  background: green;
+}
+.dhx_config_free .dhx_config_item:nth-child(7) > .item_body {
+  background: green;
+}
+
+.dhx_config_values .dhx_config_item:nth-child(1) > .item_body,
+.dhx_config_item:nth-child(1) > div.dhx_item-modes > select {
+  background: green;
+}
+.dhx_config_values .dhx_config_item:nth-child(2) > .item_body,
+.dhx_config_item:nth-child(2) > div.dhx_item-modes > select {
+  background: green;
+}
+.dhx_config_values .dhx_config_item:nth-child(3) > .item_body,
+.dhx_config_item:nth-child(3) > div.dhx_item-modes > select {
+  background: green;
+}
+.dhx_config_values .dhx_config_item:nth-child(4) > .item_body,
+.dhx_config_item:nth-child(4) > div.dhx_item-modes > select {
+  background: green;
+}
+.dhx_config_values .dhx_config_item:nth-child(5) > .item_body,
+.dhx_config_item:nth-child(5) > div.dhx_item-modes > select {
+  background: green;
+}
+.dhx_config_values .dhx_config_item:nth-child(6) > .item_body,
+.dhx_config_item:nth-child(6) > div.dhx_item-modes > select {
+  background: green;
+}
+.dhx_config_values .dhx_config_item:nth-child(7) > .item_body,
+.dhx_config_item:nth-child(7) > div.dhx_item-modes > select {
+  background: green;
+}
+

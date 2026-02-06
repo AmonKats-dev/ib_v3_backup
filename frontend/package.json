@@ -1,0 +1,132 @@
+{
+	"name": "ibp-ui-v2",
+	"version": "0.1.0",
+	"private": true,
+	"overrides": {
+		"ajv": "^8.12.0",
+		"@types/react": "^17.0.0",
+		"@types/react-dom": "^17.0.0",
+		"babel-loader": {
+			"schema-utils": {
+				"ajv": "^6.12.6"
+			}
+		},
+		"fork-ts-checker-webpack-plugin": {
+			"schema-utils": {
+				"ajv": "^6.12.6"
+			}
+		}
+	},
+	"dependencies": {
+		"@babel/plugin-proposal-async-generator-functions": "^7.20.7",
+		"@babel/plugin-proposal-dynamic-import": "^7.18.6",
+		"@babel/plugin-proposal-json-strings": "^7.18.6",
+		"@babel/plugin-proposal-optional-catch-binding": "^7.18.6",
+		"@ckeditor/ckeditor5-build-classic": "^21.0.0",
+		"@ckeditor/ckeditor5-react": "^2.1.0",
+		"@date-io/date-fns": "^2.17.0",
+		"@emotion/react": "^11.11.1",
+		"@emotion/styled": "^11.11.0",
+		"@fortawesome/fontawesome-svg-core": "^1.2.32",
+		"@fortawesome/free-solid-svg-icons": "^5.15.2",
+		"@fortawesome/react-fontawesome": "^0.1.14",
+		"@material-ui/core": "^4.12.4",
+		"@material-ui/icons": "^4.11.3",
+		"@material-ui/lab": "^4.0.0-alpha.61",
+		"@material-ui/pickers": "^3.3.11",
+		"@material-ui/styles": "^4.10.0",
+		"@mrblenny/react-flow-chart": "^0.0.14",
+		"@mui/icons-material": "^5.14.13",
+		"@mui/material": "^5.14.12",
+		"@mui/styled-engine": "^5.14.12",
+		"@mui/x-date-pickers": "^6.16.1",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2",
+		"autoprefixer": "^10.4.21",
+		"axios": "^1.5.1",
+		"babel": "^6.23.0",
+		"bootstrap": "^5.3.3",
+		"chart.js": "^2.9.3",
+		"ckeditor5-build-classic": "^1.0.0",
+		"classnames": "^2.2.6",
+		"cross-env": "^7.0.3",
+		"dayjs": "^1.11.10",
+		"dhx": "^1.0.3",
+		"dom-accessibility-api": "^0.7.0",
+		"google-map-react": "^2.0.8",
+		"history": "4",
+		"html2react": "^1.2.1",
+		"jspdf": "^3.0.3",
+		"jspdf-autotable": "^5.0.2",
+		"jwt-decode": "^2.2.0",
+		"levenary": "^1.1.1",
+		"lodash": "^4.17.19",
+		"lucide-react": "^0.561.0",
+		"moment": "^2.27.0",
+		"mui-file-input": "^3.0.2",
+		"numeral": "^2.0.6",
+		"papaparse": "^5.3.0",
+		"plotly.js": "^1.55.2",
+		"postcss": "^8.5.6",
+		"prop-types": "^15.7.2",
+		"query-string": "^5.1.1",
+		"ra-data-json-server": "^3.8.4",
+		"react": "^16.13.1",
+		"react-admin": "^3.15.0",
+		"react-bootstrap": "^2.10.10",
+		"react-chartjs-2": "^2.10.0",
+		"react-dom": "^16.13.1",
+		"react-geocode": "^0.2.3",
+		"react-icons": "^5.5.0",
+		"react-idle-timer": "^4.6.2",
+		"react-loadable": "^5.5.0",
+		"react-pivottable": "^0.10.0",
+		"react-plotly.js": "^2.5.0",
+		"react-router": "5.3.4",
+		"react-router-dom": "5.3.4",
+		"react-scripts": "^5.0.1",
+		"react-swipeable-views": "^0.13.9",
+		"recharts": "^1.8.5",
+		"save": "^2.4.0",
+		"styled-components": "^5.2.0",
+		"tailwindcss": "^3.4.1",
+		"window": "^4.2.7",
+		"xlsx": "^0.18.5"
+	},
+	"scripts": {
+		"start": "cross-env DISABLE_ESLINT_PLUGIN=true react-app-rewired start --openssl-legacy-provider",
+		"build": "cross-env GENERATE_SOURCEMAP=false DISABLE_ESLINT_PLUGIN=true react-app-rewired build --openssl-legacy-provider --max_old_space_size=8192",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"clean": "rm -rf ./dist ./build ./.next"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@babel/core": "^7.26.0",
+		"@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+		"@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+		"@babel/plugin-proposal-unicode-property-regex": "^7.18.6",
+		"@types/history": "4",
+		"@types/react-router": "5",
+		"@types/react-router-dom": "5",
+		"customize-cra": "^1.0.0",
+		"madge": "^8.0.0",
+		"react-app-rewired": "^2.2.1",
+		"webpack": "^5.97.0"
+	}
+}

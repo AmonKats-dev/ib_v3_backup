@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- meta block -->
+		<title>Localization - DHTMLX Pivot</title>
+		<meta name="description" content="Check interactive samples of DHTMLX Pivot to explore its initialization and other details.">
+		<!-- end meta block -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+		<script type="text/javascript" src="../../codebase/pivot.js?v=1.5.3"></script>
+		<link rel="stylesheet" href="../../codebase/pivot.css?v=1.5.3">
+		<link rel="stylesheet" href="../common/index.css?v=1.5.3">
+		<link rel="stylesheet" href="../common/pivot.css?v=1.5.3">
+		<script type="text/javascript" src="../common/dataset.js?v=1.5.3"></script>
+		<!-- custom sample head -->
+	</head>
+	<body>
+		<header class="dhx_sample-header">
+			<div class="dhx_sample-header__main">
+				<nav class="dhx_sample-header__breadcrumbs">
+					<ul class="dhx_sample-header-breadcrumbs">
+						<li class="dhx_sample-header-breadcrumbs__item">
+							<a href="../index.html" class="dhx_sample-header-breadcrumbs__link">Pivot samples</a>
+						</li>
+						<li class="dhx_sample-header-breadcrumbs__item">
+							<a href="./index.html" class="dhx_sample-header-breadcrumbs__link">Initialization</a>
+						</li>
+						<li class="dhx_sample-header-breadcrumbs__item">
+							<span class="dhx_sample-header-breadcrumbs__link">Localization</span>
+						</li>
+					</ul>
+				</nav>
+				<h1 class="dhx_sample-header__title">
+					<div class="dhx_sample-header__content">
+						Localization.
+						<div class="dhx_sample-docs-links">
+							Check documentation:
+							<a href="https://docs.dhtmlx.com/pivot/guides__localization.html" target="_blank" class="dhx_sample-header-link">Localizing Pivot</a>
+						</div>
+					</div>
+				</h1>
+			</div>
+</header>
+		<section class="dhx_sample-container">
+			<div class="dhx_sample-container__widget" id="pivot"></div>
+
+		</section>
+
+		<script>
+			dhx.i18n.setLocale("pivot", {
+				availableFields: "доступные поля",
+				values: "данные",
+				columns: "столбцы",
+				rows: "строки",
+				moveFieldsHere: "Переместите поле сюда",
+				hideSettings: "Скрыть настройки",
+				showSettings: "Показать настройки",
+				apply: "Применить",
+				day: "День",
+				week: "Неделя",
+				month: "Месяц",
+				quarter: "Квартал",
+				year: "Год",
+				min: "МИН",
+				max: "МАКС",
+				sum: "СУМ",
+				count: "КОЛ",
+				cancel: "Отменить",
+				typeHere: "Введите здесь",
+				selectAll: "Выбрать все",
+				unselectAll: "Снять все",
+				contains: "Содержит",
+				notContains: "Не содержит",
+				equal: "Равно",
+				notEqual: "Не равно",
+
+				date: {
+					monthShort: ["Янв", "Фев", "Maр", "Aпр", "Maй", "Июн", "Июл", "Aвг", "Сен", "Окт", "Ноя", "Дек"],
+					dayShort: ["Вс", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
+					quarter: ["К1", "К2", "К3", "К4"],
+					week: "Н",
+				},
+
+				types: {
+					operations: [
+						{ id: "sum", label: "Сум" },
+						{ id: "min", label: "Мин" },
+						{ id: "max", label: "Макс" },
+						{ id: "count", label: "Колич" },
+					],
+					dates: [
+						{ id: "dateByDay", label: "День" },
+						{ id: "dateByWeek", label: "Неделя" },
+						{ id: "dateByMonth", label: "Месяц" },
+						{ id: "dateByQuarter", label: "Квартал" },
+						{ id: "dateByYear", label: "Год" },
+					],
+				}
+			});
+
+			var pivot = new dhx.Pivot("pivot", {
+				data: dataset,
+				fields: {
+					rows: ["form", "name"],
+					columns: ["year", { "id": "when", "group": "dateByQuarter" }],
+					values: [{ id: "oil", method: "max" }, { id: "oil", method: "sum" }],
+				},
+				fieldList: [
+					{ id: "name", label: "Name" },
+					{ id: "year", label: "Year" },
+					{ id: "continent", label: "Continent" },
+					{ id: "form", label: "Form" },
+					{ id: "gdp", label: "GDP" },
+					{ id: "oil", label: "Oil" },
+					{ id: "balance", label: "Balance" },
+					{ id: "when", label: "When", type: "date", format: "%d/%m/%Y" },
+				],
+				layout: {
+					leftMargin: 300,
+					liveReload: false,
+				},
+			});
+
+			pivot.addMathMethod("avr", "Средн", function(cellData) {
+				var sum = cellData.reduce(function(all, el) {
+					return all += el;
+				});
+				return (sum / cellData.length).toFixed(3);
+			});
+		</script>
+
+	</body>
+</html>

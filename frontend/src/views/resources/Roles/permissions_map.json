@@ -1,0 +1,1536 @@
+{
+  "permissions": {
+    "project": [
+      {
+        "id": 1751,
+        "key": "pre_inv_list_projects",
+        "name": "Pre-Investment Projects",
+        "has_level": false
+      },
+      {
+        "id": 175,
+        "key": "edit_myc_data",
+        "name": "Edit MYC Data",
+        "has_level": false
+      },
+      {
+        "id": 148,
+        "key": "edit_budget_allocation",
+        "name": "Edit Budget Allocation",
+        "has_level": false
+      },
+      {
+        "id": 147,
+        "key": "view_ipr_actions",
+        "name": "View IPR Actions",
+        "has_level": false
+      },
+      {
+        "id": 145,
+        "key": "view_project_analysis",
+        "name": "Access to Project Analysis",
+        "has_level": false
+      },
+      {
+        "id": 146,
+        "key": "revert_project",
+        "name": "Access to Revert Project",
+        "has_level": false
+      },
+      {
+        "id": 141,
+        "key": "list_parameters",
+        "name": "Access to System Parameters",
+        "has_level": false
+      },
+      {
+        "id": 142,
+        "key": "list_project_risks",
+        "name": "Access to Project Risk Assessment",
+        "has_level": false
+      },
+      {
+        "id": 5,
+        "key": "full_access",
+        "name": "Full Access Permission",
+        "has_level": false
+      },
+      {
+        "id": 6,
+        "key": "submit_project",
+        "name": "Submit Project",
+        "has_level": false
+      },
+      {
+        "id": 7,
+        "key": "approve_project",
+        "name": "Approve Project",
+        "has_level": false
+      },
+      {
+        "id": 8,
+        "key": "revise_project",
+        "name": "Revise Project",
+        "has_level": false
+      },
+      {
+        "id": 9,
+        "key": "reject_project",
+        "name": "Reject Project",
+        "has_level": false
+      },
+      {
+        "id": 150,
+        "key": "assign_project",
+        "name": "Assign Project",
+        "has_level": false
+      },
+      {
+        "id": 76,
+        "key": "list_projects",
+        "name": "List Projects",
+        "has_level": false
+      },
+      {
+        "id": 77,
+        "key": "create_project",
+        "name": "Create Project",
+        "has_level": false
+      },
+      {
+        "id": 78,
+        "key": "view_project",
+        "name": "View Project",
+        "has_level": false
+      },
+      {
+        "id": 79,
+        "key": "edit_project",
+        "name": "Edit Project",
+        "has_level": false
+      },
+      {
+        "id": 80,
+        "key": "delete_project",
+        "name": "Delete Project",
+        "has_level": false
+      },
+      {
+        "id": 45,
+        "key": "list_implementing_agencies",
+        "name": "List Implementing Agencies",
+        "has_level": false
+      },
+      {
+        "id": 46,
+        "key": "list_indicators",
+        "name": "List Indicators",
+        "has_level": false
+      },
+      {
+        "id": 47,
+        "key": "list_investments",
+        "name": "List Investments",
+        "has_level": false
+      },
+      {
+        "id": 64,
+        "key": "list_outcomes",
+        "name": "List Outcomes",
+        "has_level": false
+      },
+      {
+        "id": 65,
+        "key": "list_outputs",
+        "name": "List Outputs",
+        "has_level": false
+      },
+      {
+        "id": 87,
+        "key": "list_project_locations",
+        "name": "List Project Locations",
+        "has_level": false
+      },
+      {
+        "id": 88,
+        "key": "list_project_options",
+        "name": "List Project Options",
+        "has_level": false
+      },
+      {
+        "id": 91,
+        "key": "list_responsible_officers",
+        "name": "List Responsible Officers",
+        "has_level": false
+      },
+      {
+        "id": 98,
+        "key": "list_stakeholders",
+        "name": "List Stakeholders",
+        "has_level": false
+      },
+      {
+        "id": 100,
+        "key": "list_timeline",
+        "name": "List Timeline",
+        "has_level": false
+      },
+      {
+        "id": 2,
+        "key": "list_activities",
+        "name": "List Activities",
+        "has_level": false
+      },
+      {
+        "id": 121,
+        "key": "view_high_risk_badge",
+        "name": "View High Risk badge for projects",
+        "has_level": false
+      },
+      {
+        "id": 131,
+        "key": "export_project_word",
+        "name": "Export Project to Word",
+        "has_level": false
+      },
+      {
+        "id": 153,
+        "key": "export_project_word_always",
+        "name": "Export to word in all Statuses",
+        "has_level": false
+      },
+      {
+        "id": 154,
+        "key": "export_project_html",
+        "name": "Export to HTML",
+        "has_level": false
+      },
+      {
+        "id": 132,
+        "key": "export_project_pdf",
+        "name": "Export Project to PDF",
+        "has_level": false
+      },
+      {
+        "id": 139,
+        "key": "access_deleted_project",
+        "name": "View and Restore Deleted Projects",
+        "has_level": false
+      }
+    ],
+    "comments": [
+      {
+        "id": 149,
+        "key": "list_comments",
+        "name": "Access to Comments List",
+        "has_level": false
+      },
+      {
+        "id": 150,
+        "key": "view_comment",
+        "name": "View Comments",
+        "has_level": false
+      },
+      {
+        "id": 151,
+        "key": "edit_comment",
+        "name": "Edit Comments",
+        "has_level": false
+      },
+      {
+        "id": 152,
+        "key": "delete_comment",
+        "name": "Delete Comments",
+        "has_level": false
+      },
+      {
+        "id": 155,
+        "key": "create_comment",
+        "name": "Create Comments",
+        "has_level": false
+      }
+    ],
+    "parameters": [
+      {
+        "id": 142,
+        "key": "list_parameters",
+        "name": "Access to System Parameters",
+        "has_level": false
+      },
+      {
+        "id": 143,
+        "key": "edit_parameters",
+        "name": "Edit System Parameters",
+        "has_level": false
+      }
+    ],
+    "ndp": [
+      {
+        "id": 1441,
+        "key": "list_ndp_data",
+        "name": "List NDP Data",
+        "has_level": false
+      },
+      {
+        "id": 1442,
+        "key": "view_ndp_data",
+        "name": "View NDP Data",
+        "has_level": false
+      },
+      {
+        "id": 1443,
+        "key": "edit_ndp_data",
+        "name": "Edit NDP Data",
+        "has_level": false
+      },
+      {
+        "id": 1444,
+        "key": "create_ndp_data",
+        "name": "Create NDP Data",
+        "has_level": false
+      }
+    ],
+    "country": [
+      {
+        "id": 5,
+        "key": "list_countries",
+        "name": "List Countries",
+        "has_level": false
+      },
+      {
+        "id": 14,
+        "key": "create_country",
+        "name": "Create Country",
+        "has_level": false
+      },
+      {
+        "id": 15,
+        "key": "view_country",
+        "name": "View Country",
+        "has_level": false
+      },
+      {
+        "id": 16,
+        "key": "edit_country",
+        "name": "Edit Country",
+        "has_level": false
+      },
+      {
+        "id": 17,
+        "key": "delete_country",
+        "name": "Delete Country",
+        "has_level": false
+      }
+    ],
+    "costing": [
+      {
+        "id": 10,
+        "key": "create_costing",
+        "name": "Create Costing",
+        "has_level": false
+      },
+      {
+        "id": 4,
+        "key": "list_costings",
+        "name": "List Costings",
+        "has_level": false
+      },
+      {
+        "id": 11,
+        "key": "view_costing",
+        "name": "View Costing",
+        "has_level": false
+      },
+      {
+        "id": 12,
+        "key": "edit_costing",
+        "name": "Edit Costing",
+        "has_level": false
+      },
+      {
+        "id": 13,
+        "key": "delete_costing",
+        "name": "Delete Costing",
+        "has_level": false
+      }
+    ],
+    "currency": [
+      {
+        "id": 18,
+        "key": "list_currencies",
+        "name": "List Currencies",
+        "has_level": false
+      },
+      {
+        "id": 19,
+        "key": "create_currency",
+        "name": "Create Currency",
+        "has_level": false
+      },
+      {
+        "id": 20,
+        "key": "view_currency",
+        "name": "View Currency",
+        "has_level": false
+      },
+      {
+        "id": 21,
+        "key": "edit_currency",
+        "name": "Edit Currency",
+        "has_level": false
+      },
+      {
+        "id": 22,
+        "key": "delete_currency",
+        "name": "Delete Currency",
+        "has_level": false
+      },
+      {
+        "id": 23,
+        "key": "list_currency_rate_rates",
+        "name": "List Currency Rate Rates",
+        "has_level": false
+      },
+      {
+        "id": 24,
+        "key": "create_currency_rate",
+        "name": "Create Currency Rate",
+        "has_level": false
+      },
+      {
+        "id": 25,
+        "key": "view_currency_rate",
+        "name": "View Currency Rate",
+        "has_level": false
+      },
+      {
+        "id": 26,
+        "key": "edit_currency_rate",
+        "name": "Edit Currency Rate",
+        "has_level": false
+      },
+      {
+        "id": 27,
+        "key": "delete_currency_rate",
+        "name": "Delete Currency Rate",
+        "has_level": false
+      }
+    ],
+    "cycle": [
+      {
+        "id": 28,
+        "key": "list_cycles",
+        "name": "List Cycles",
+        "has_level": false
+      },
+      {
+        "id": 29,
+        "key": "create_cycle",
+        "name": "Create Cycle",
+        "has_level": false
+      },
+      {
+        "id": 30,
+        "key": "view_cycle",
+        "name": "View Cycle",
+        "has_level": false
+      },
+      {
+        "id": 31,
+        "key": "edit_cycle",
+        "name": "Edit Cycle",
+        "has_level": false
+      },
+      {
+        "id": 32,
+        "key": "delete_cycle",
+        "name": "Delete Cycle",
+        "has_level": false
+      }
+    ],
+    "file type": [
+      {
+        "id": 34,
+        "key": "list_file_types",
+        "name": "List File Types",
+        "has_level": false
+      },
+      {
+        "id": 35,
+        "key": "create_file_type",
+        "name": "Create File Type",
+        "has_level": false
+      },
+      {
+        "id": 36,
+        "key": "view_file_type",
+        "name": "View File Type",
+        "has_level": false
+      },
+      {
+        "id": 37,
+        "key": "edit_file_type",
+        "name": "Edit File Type",
+        "has_level": false
+      },
+      {
+        "id": 38,
+        "key": "delete_file_type",
+        "name": "Delete File Type",
+        "has_level": false
+      }
+    ],
+    "fund": [
+      {
+        "id": 40,
+        "key": "list_funds",
+        "name": "List Funds",
+        "has_level": false
+      },
+      {
+        "id": 41,
+        "key": "create_fund",
+        "name": "Create Fund",
+        "has_level": false
+      },
+      {
+        "id": 42,
+        "key": "view_fund",
+        "name": "View Fund",
+        "has_level": false
+      },
+      {
+        "id": 43,
+        "key": "edit_fund",
+        "name": "Edit Fund",
+        "has_level": false
+      },
+      {
+        "id": 44,
+        "key": "delete_fund",
+        "name": "Delete Fund",
+        "has_level": false
+      }
+    ],
+    "location": [
+      {
+        "id": 48,
+        "key": "list_locations",
+        "name": "List Locations",
+        "has_level": false
+      },
+      {
+        "id": 49,
+        "key": "create_location",
+        "name": "Create Location",
+        "has_level": false
+      },
+      {
+        "id": 50,
+        "key": "view_location",
+        "name": "View Location",
+        "has_level": false
+      },
+      {
+        "id": 51,
+        "key": "edit_location",
+        "name": "Edit Location",
+        "has_level": false
+      },
+      {
+        "id": 52,
+        "key": "delete_location",
+        "name": "Delete Location",
+        "has_level": false
+      }
+    ],
+    "media": [
+      {
+        "id": 53,
+        "key": "upload_media",
+        "name": "Upload Media",
+        "has_level": false
+      },
+      {
+        "id": 54,
+        "key": "update_media",
+        "name": "Update Media",
+        "has_level": false
+      },
+      {
+        "id": 55,
+        "key": "delete_media",
+        "name": "Delete Media",
+        "has_level": false
+      }
+    ],
+    "notification": [
+      {
+        "id": 56,
+        "key": "list_notifications",
+        "name": "List Notifications",
+        "has_level": false
+      },
+      {
+        "id": 57,
+        "key": "view_notification",
+        "name": "View Notification",
+        "has_level": false
+      },
+      {
+        "id": 58,
+        "key": "delete_notification",
+        "name": "Delete Notification",
+        "has_level": false
+      }
+    ],
+    "organization": [
+      {
+        "id": 59,
+        "key": "list_organizations",
+        "name": "List Organizations",
+        "has_level": false
+      },
+      {
+        "id": 60,
+        "key": "create_organization",
+        "name": "Create Organization",
+        "has_level": false
+      },
+      {
+        "id": 61,
+        "key": "view_organization",
+        "name": "View Organization",
+        "has_level": false
+      },
+      {
+        "id": 62,
+        "key": "edit_organization",
+        "name": "Edit Organization",
+        "has_level": false
+      },
+      {
+        "id": 63,
+        "key": "delete_organization",
+        "name": "Delete Organization",
+        "has_level": false
+      }
+    ],
+    "phase": [
+      {
+        "id": 66,
+        "key": "list_phases",
+        "name": "List Phases",
+        "has_level": false
+      },
+      {
+        "id": 67,
+        "key": "create_phase",
+        "name": "Create Phase",
+        "has_level": false
+      },
+      {
+        "id": 68,
+        "key": "view_phase",
+        "name": "View Phase",
+        "has_level": false
+      },
+      {
+        "id": 69,
+        "key": "edit_phase",
+        "name": "Edit Phase",
+        "has_level": false
+      },
+      {
+        "id": 70,
+        "key": "delete_phase",
+        "name": "Delete Phase",
+        "has_level": false
+      }
+    ],
+    "program": [
+      {
+        "id": 71,
+        "key": "list_programs",
+        "name": "List Programs",
+        "has_level": false
+      },
+      {
+        "id": 72,
+        "key": "create_program",
+        "name": "Create Program",
+        "has_level": false
+      },
+      {
+        "id": 73,
+        "key": "view_program",
+        "name": "View Program",
+        "has_level": false
+      },
+      {
+        "id": 74,
+        "key": "edit_program",
+        "name": "Edit Program",
+        "has_level": false
+      },
+      {
+        "id": 75,
+        "key": "delete_program",
+        "name": "Delete Program",
+        "has_level": false
+      }
+    ],
+    "function": [
+      {
+        "id": 143,
+        "key": "list_functions",
+        "name": "List Functions",
+        "has_level": false
+      },
+      {
+        "id": 144,
+        "key": "create_function",
+        "name": "Create Function",
+        "has_level": false
+      },
+      {
+        "id": 145,
+        "key": "view_function",
+        "name": "View Function",
+        "has_level": false
+      },
+      {
+        "id": 146,
+        "key": "edit_function",
+        "name": "Edit Function",
+        "has_level": false
+      },
+      {
+        "id": 147,
+        "key": "delete_function",
+        "name": "Delete Function",
+        "has_level": false
+      }
+    ],
+    "options": [
+      {
+        "id": 3,
+        "key": "list_building_blocks",
+        "name": "List Building Blocks",
+        "has_level": false
+      },
+      {
+        "id": 33,
+        "key": "list_economic_evaluations",
+        "name": "List Economic Evaluations",
+        "has_level": false
+      },
+      {
+        "id": 39,
+        "key": "list_financial_evaluations",
+        "name": "List Financial Evaluations",
+        "has_level": false
+      },
+      {
+        "id": 92,
+        "key": "list_risk_evaluations",
+        "name": "List Risk Evaluations",
+        "has_level": false
+      },
+      {
+        "id": 99,
+        "key": "list_stakeholder_evaluations",
+        "name": "List Stakeholder Evaluations",
+        "has_level": false
+      }
+    ],
+    "role": [
+      {
+        "id": 93,
+        "key": "list_roles",
+        "name": "List Roles",
+        "has_level": false
+      },
+      {
+        "id": 94,
+        "key": "create_role",
+        "name": "Create Role",
+        "has_level": false
+      },
+      {
+        "id": 95,
+        "key": "view_role",
+        "name": "View Role",
+        "has_level": false
+      },
+      {
+        "id": 96,
+        "key": "edit_role",
+        "name": "Edit Role",
+        "has_level": false
+      },
+      {
+        "id": 97,
+        "key": "delete_role",
+        "name": "Delete Role",
+        "has_level": false
+      }
+    ],
+    "user": [
+      {
+        "id": 106,
+        "key": "list_users",
+        "name": "List Users",
+        "has_level": false
+      },
+      {
+        "id": 107,
+        "key": "create_user",
+        "name": "Create User",
+        "has_level": false
+      },
+      {
+        "id": 108,
+        "key": "view_user",
+        "name": "View User",
+        "has_level": false
+      },
+      {
+        "id": 109,
+        "key": "edit_user",
+        "name": "Edit User",
+        "has_level": false
+      },
+      {
+        "id": 110,
+        "key": "delete_user",
+        "name": "Delete User",
+        "has_level": false
+      },
+      {
+        "id": 111,
+        "key": "list_user_roles",
+        "name": "List User Roles",
+        "has_level": false
+      },
+      {
+        "id": 112,
+        "key": "create_user_role",
+        "name": "Create User Role",
+        "has_level": false
+      },
+      {
+        "id": 113,
+        "key": "view_user_role",
+        "name": "View User Role",
+        "has_level": false
+      },
+      {
+        "id": 114,
+        "key": "edit_user_role",
+        "name": "Edit User Role",
+        "has_level": false
+      },
+      {
+        "id": 115,
+        "key": "delete_user_role",
+        "name": "Delete User Role",
+        "has_level": false
+      },
+      {
+        "id": 134,
+        "key": "edit_permissions",
+        "name": "Edit User Permissions",
+        "has_level": false
+      },
+      {
+        "id": 135,
+        "key": "edit_vacations",
+        "name": "Edit User`s Vacations",
+        "has_level": false
+      },
+      {
+        "id": 136,
+        "key": "edit_profile",
+        "name": "Edit User`s Profile",
+        "has_level": false
+      },
+      {
+        "id": 137,
+        "key": "view_profile",
+        "name": "View User`s Profile",
+        "has_level": false
+      },
+      {
+        "id": 138,
+        "key": "user_role_select",
+        "name": "Change User Role",
+        "has_level": false
+      },
+      {
+        "id": 139,
+        "key": "reset_user_password",
+        "name": "Reset User Password",
+        "has_level": false
+      },
+      {
+        "id": 140,
+        "key": "edit_delegation",
+        "name": "Edit Delegation",
+        "has_level": false
+      },
+      {
+        "id": 151,
+        "key": "edit_resources",
+        "name": "Edit Resources",
+        "has_level": false
+      }
+    ],
+    "workflow": [
+      {
+        "id": 116,
+        "key": "list_workflows",
+        "name": "List Workflows",
+        "has_level": false
+      },
+      {
+        "id": 117,
+        "key": "create_workflow",
+        "name": "Create Workflow",
+        "has_level": false
+      },
+      {
+        "id": 118,
+        "key": "view_workflow",
+        "name": "View Workflow",
+        "has_level": false
+      },
+      {
+        "id": 119,
+        "key": "edit_workflow",
+        "name": "Edit Workflow",
+        "has_level": false
+      },
+      {
+        "id": 120,
+        "key": "delete_workflow",
+        "name": "Delete Workflow",
+        "has_level": false
+      },
+      {
+        "id": 129,
+        "key": "upload_file_to_project",
+        "name": "Upload File To Project",
+        "has_level": false
+      },
+      {
+        "id": 130,
+        "key": "upload_file_to_timeline",
+        "name": "Upload File To Timeline",
+        "has_level": false
+      }
+    ],
+    "report": [
+      {
+        "id": 89,
+        "key": "view_report_builder",
+        "name": "View Report Builder",
+        "has_level": false
+      },
+      {
+        "id": 90,
+        "key": "view_project_count_report",
+        "name": "View Project Count Report",
+        "has_level": false
+      },
+      {
+        "id": 122,
+        "key": "export",
+        "name": "Export Data",
+        "has_level": false
+      },
+      {
+        "id": 123,
+        "key": "view_psip_report",
+        "name": "View PSIP report",
+        "has_level": false
+      }
+    ],
+    "project_management": [
+      {
+        "id": 124,
+        "key": "list_project_management",
+        "name": "View Gantt Charts List",
+        "has_level": false
+      },
+      {
+        "id": 125,
+        "key": "create_project_management",
+        "name": "Create Gantt Charts",
+        "has_level": false
+      },
+      {
+        "id": 126,
+        "key": "view_project_management",
+        "name": "View Gantt Charts",
+        "has_level": false
+      },
+      {
+        "id": 127,
+        "key": "edit_project_management",
+        "name": "Edit Gantt Charts",
+        "has_level": false
+      },
+      {
+        "id": 140,
+        "key": "list_reports",
+        "name": "View Projects Reports",
+        "has_level": false
+      }
+    ],
+    "me_report": [
+      {
+        "id": 2011,
+        "key": "list_me_reports",
+        "name": "View List M&E Reports",
+        "has_level": false
+      },
+      {
+        "id": 2012,
+        "key": "create_me_report",
+        "name": "Create M&E Report",
+        "has_level": false
+      },
+      {
+        "id": 2013,
+        "key": "view_me_report",
+        "name": "View M&E Report",
+        "has_level": false
+      },
+      {
+        "id": 2014,
+        "key": "edit_me_report",
+        "name": "Edit M&E Report",
+        "has_level": false
+      },
+      {
+        "id": 2015,
+        "key": "view_limited_me_report_list",
+        "name": "View List Limited Reports",
+        "has_level": false
+      },
+      {
+        "id": 2016,
+        "key": "view_all_me_report_list",
+        "name": "View List All Reports",
+        "has_level": false
+      },
+      {
+        "id": 2017,
+        "key": "me_create_periodical_report",
+        "name": "Create Periodical Report",
+        "has_level": false
+      },
+      {
+        "id": 2018,
+        "key": "approve_me_report",
+        "name": "Approve M&E Report",
+        "has_level": false
+      },
+      {
+        "id": 2019,
+        "key": "submit_me_report",
+        "name": "Submit M&E Report",
+        "has_level": false
+      },
+      {
+        "id": 2020,
+        "key": "revise_me_report",
+        "name": "Revise M&E Report",
+        "has_level": false
+      },
+      {
+        "id": 202,
+        "key": "me_create_year_report",
+        "name": "Create Annual Report",
+        "has_level": false
+      },
+      {
+        "id": 203,
+        "key": "me_export_report",
+        "name": "Export Report",
+        "has_level": false
+      },
+      {
+        "id": 204,
+        "key": "me_edit_report",
+        "name": "Edit Report",
+        "has_level": false
+      },
+      {
+        "id": 205,
+        "key": "me_show_periodical_report",
+        "name": "Show Periodical Report",
+        "has_level": false
+      },
+      {
+        "id": 206,
+        "key": "me_show_year_report",
+        "name": "Show Annual Report",
+        "has_level": false
+      },
+      {
+        "id": 207,
+        "key": "me_actions_report",
+        "name": "Report Actions",
+        "has_level": false
+      },
+      {
+        "id": 208,
+        "key": "me_list_periodical_report",
+        "name": "View List of Periodical Reports",
+        "has_level": false
+      },
+      {
+        "id": 209,
+        "key": "me_list_year_report",
+        "name": "View List of Year Reports",
+        "has_level": false
+      }
+    ],
+    "report_builder": [
+      {
+        "id": 210,
+        "key": "create_custom_report",
+        "name": "Create Custom Report",
+        "has_level": false
+      },
+      {
+        "id": 211,
+        "key": "list_custom_reports",
+        "name": "List Custom Report",
+        "has_level": false
+      },
+      {
+        "id": 212,
+        "key": "view_custom_report",
+        "name": "View Custom Report",
+        "has_level": false
+      },
+      {
+        "id": 213,
+        "key": "edit_custom_report",
+        "name": "Edit Custom Report",
+        "has_level": false
+      },
+      {
+        "id": 214,
+        "key": "delete_custom_report",
+        "name": "Delete Custom Report",
+        "has_level": false
+      },
+      {
+        "id": 215,
+        "key": "save_public_custom_report",
+        "name": "Save Public Custom Report",
+        "has_level": false
+      }
+    ],
+    "unit": [
+      {
+        "id": 101,
+        "key": "list_units",
+        "name": "List Units",
+        "has_level": false
+      },
+      {
+        "id": 102,
+        "key": "create_unit",
+        "name": "Create Unit",
+        "has_level": false
+      },
+      {
+        "id": 103,
+        "key": "view_unit",
+        "name": "View Unit",
+        "has_level": false
+      },
+      {
+        "id": 104,
+        "key": "edit_unit",
+        "name": "Edit Unit",
+        "has_level": false
+      },
+      {
+        "id": 105,
+        "key": "delete_unit",
+        "name": "Delete Unit",
+        "has_level": false
+      }
+    ],
+    "frequencies": [
+      {
+        "id": 1001,
+        "key": "list_frequencies",
+        "name": "List Frequencies",
+        "has_level": false
+      },
+      {
+        "id": 1002,
+        "key": "create_frequency",
+        "name": "Create Frequency",
+        "has_level": false
+      },
+      {
+        "id": 1003,
+        "key": "view_frequency",
+        "name": "View Frequency",
+        "has_level": false
+      },
+      {
+        "id": 1004,
+        "key": "edit_frequency",
+        "name": "Edit Frequency",
+        "has_level": false
+      },
+      {
+        "id": 1005,
+        "key": "delete_frequency",
+        "name": "Delete Frequency",
+        "has_level": false
+      }
+    ],
+    "disaggregation-types": [
+      {
+        "id": 1006,
+        "key": "list_disaggregation_types",
+        "name": "List Disaggregation Types",
+        "has_level": false
+      },
+      {
+        "id": 1007,
+        "key": "create_disaggregation_type",
+        "name": "Create Disaggregation Type",
+        "has_level": false
+      },
+      {
+        "id": 1008,
+        "key": "view_disaggregation_type",
+        "name": "View Disaggregation Type",
+        "has_level": false
+      },
+      {
+        "id": 1009,
+        "key": "edit_disaggregation_type",
+        "name": "Edit Disaggregation Type",
+        "has_level": false
+      },
+      {
+        "id": 1010,
+        "key": "delete_disaggregation_type",
+        "name": "Delete Disaggregation Type",
+        "has_level": false
+      }
+    ],
+    "formats": [
+      {
+        "id": 1011,
+        "key": "list_formats",
+        "name": "List Formats",
+        "has_level": false
+      },
+      {
+        "id": 1012,
+        "key": "create_format",
+        "name": "Create Format",
+        "has_level": false
+      },
+      {
+        "id": 1013,
+        "key": "view_format",
+        "name": "View Format",
+        "has_level": false
+      },
+      {
+        "id": 1014,
+        "key": "edit_format",
+        "name": "Edit Format",
+        "has_level": false
+      },
+      {
+        "id": 1015,
+        "key": "delete_format",
+        "name": "Delete Format",
+        "has_level": false
+      }
+    ],
+    "indicators": [
+      {
+        "id": 1016,
+        "key": "list_indicators",
+        "name": "List Indicators",
+        "has_level": false
+      },
+      {
+        "id": 1017,
+        "key": "create_indicator",
+        "name": "Create Indicator",
+        "has_level": false
+      },
+      {
+        "id": 1018,
+        "key": "view_indicator",
+        "name": "View Indicator",
+        "has_level": false
+      },
+      {
+        "id": 1019,
+        "key": "edit_indicator",
+        "name": "Edit Indicator",
+        "has_level": false
+      },
+      {
+        "id": 1020,
+        "key": "delete_indicator",
+        "name": "Delete Indicator",
+        "has_level": false
+      }
+    ],
+    "cost_plans": [
+      {
+        "id": 4100,
+        "key": "list_cost_plans",
+        "name": "List Cost Plans",
+        "has_level": false
+      },
+      {
+        "id": 4101,
+        "key": "view_cost_plan",
+        "name": "View Cost Plan",
+        "has_level": false
+      },
+      {
+        "id": 4102,
+        "key": "edit_cost_plan",
+        "name": "Edit Cost Plan",
+        "has_level": false
+      },
+      {
+        "id": 4103,
+        "key": "create_cost_plan",
+        "name": "Create Cost Plan",
+        "has_level": false
+      }
+    ],
+    "projected_cash_flow": [
+      {
+        "id": 4000,
+        "key": "list_projected_cash_flow",
+        "name": "List Projected Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4001,
+        "key": "view_projected_cash_flow",
+        "name": "View Projected Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4002,
+        "key": "add_projected_cash_flow",
+        "name": "Add Projected Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4003,
+        "key": "update_projected_cash_flow",
+        "name": "Update Projected Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4004,
+        "key": "publish_projected_cash_flow",
+        "name": "Publish Projected Cash Flow",
+        "has_level": false
+      }
+    ],
+    "approved_cash_flow": [
+      {
+        "id": 4010,
+        "key": "list_approved_cash_flow",
+        "name": "List approved Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4011,
+        "key": "view_approved_cash_flow",
+        "name": "View Approved Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4012,
+        "key": "add_approved_cash_flow",
+        "name": "Add Approved Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4013,
+        "key": "update_approved_cash_flow",
+        "name": "Update Approved Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4014,
+        "key": "publish_approved_cash_flow",
+        "name": "Publish Approved Cash Flow",
+        "has_level": false
+      }
+    ],
+    "adjusted_cash_flow": [
+      {
+        "id": 4020,
+        "key": "list_adjusted_cash_flow",
+        "name": "List adjusted Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4021,
+        "key": "view_adjusted_cash_flow",
+        "name": "View adjusted Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4022,
+        "key": "add_adjusted_cash_flow",
+        "name": "Add adjusted Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4023,
+        "key": "update_adjusted_cash_flow",
+        "name": "Update adjusted Cash Flow",
+        "has_level": false
+      },
+      {
+        "id": 4024,
+        "key": "publish_adjusted_cash_flow",
+        "name": "Publish adjusted Cash Flow",
+        "has_level": false
+      }
+    ],
+    "warrant_request": [
+      {
+        "id": 4030,
+        "key": "list_warrant_request",
+        "name": "List warrant_request",
+        "has_level": false
+      },
+      {
+        "id": 4031,
+        "key": "view_warrant_request",
+        "name": "View warrant_request",
+        "has_level": false
+      },
+      {
+        "id": 4032,
+        "key": "add_warrant_request",
+        "name": "Add warrant_request",
+        "has_level": false
+      },
+      {
+        "id": 4033,
+        "key": "update_warrant_request",
+        "name": "Update warrant_request",
+        "has_level": false
+      },
+      {
+        "id": 4034,
+        "key": "publish_warrant_request",
+        "name": "Publish warrant_request",
+        "has_level": false
+      }
+    ],
+    "log_frame": [
+      {
+        "id": 4040,
+        "key": "list_log_frame",
+        "name": "List Log Frame",
+        "has_level": false
+      },
+      {
+        "id": 4041,
+        "key": "edit_log_frame",
+        "name": "Edit Log Frame",
+        "has_level": false
+      },
+      {
+        "id": 4042,
+        "key": "approve_log_frame",
+        "name": "Approve Log Frame",
+        "has_level": false
+      },
+      {
+        "id": 4043,
+        "key": "view_log_frame",
+        "name": "View Log Frame",
+        "has_level": false
+      }
+    ],
+    "gantt_chart": [
+      {
+        "id": 4050,
+        "key": "gantt_chart_view",
+        "name": "Gantt Chart View",
+        "has_level": false
+      },
+      {
+        "id": 4051,
+        "key": "gantt_chart_update",
+        "name": "Gantt Chart Update",
+        "has_level": false
+      }
+    ],
+    "gfms": [
+      {
+        "id": 5000,
+        "key": "list_gfms_data",
+        "name": "View GFMS data",
+        "has_level": false
+      },
+      {
+        "id": 5001,
+        "key": "sync_gfms_data",
+        "name": "Upload GFMS data",
+        "has_level": false
+      }
+    ],
+    "bpms": [
+      {
+        "id": 5010,
+        "key": "list_bpms_data",
+        "name": "View BPMS data",
+        "has_level": false
+      },
+      {
+        "id": 5001,
+        "key": "sync_bpms_data",
+        "name": "Upload BPMS data",
+        "has_level": false
+      }
+    ],
+    "expenditures": [
+      {
+        "id": 6010,
+        "key": "list_expenditures_data",
+        "name": "View Expenditures data",
+        "has_level": false
+      },
+      {
+        "id": 6001,
+        "key": "sync_expenditures_data",
+        "name": "Upload Expenditures data",
+        "has_level": false
+      }
+    ]
+  }
+}

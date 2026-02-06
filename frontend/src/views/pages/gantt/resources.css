@@ -1,0 +1,137 @@
+/* .gantt_grid_scale .gantt_grid_head_cell,
+.gantt_task .gantt_task_scale .gantt_scale_cell {
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.folder_row {
+  font-weight: bold;
+}
+
+.highlighted_resource,
+.highlighted_resource.odd {
+  background-color: rgba(255, 251, 224, 0.6);
+}
+
+.gantt_task_cell.week_end {
+  background-color: #e8e8e87d;
+}
+
+.gantt_task_row.gantt_selected .gantt_task_cell.week_end {
+  background-color: #e8e8e87d !important;
+}
+
+.group_row,
+.group_row.odd,
+.gantt_task_row.group_row {
+  background-color: rgba(232, 232, 232, 0.6);
+}
+
+.owner-label {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  display: inline-block;
+  border: 1px solid #cccccc;
+  border-radius: 25px;
+  background: #e6e6e6;
+  color: #6f6f6f;
+  margin: 0 3px;
+  font-weight: bold;
+}
+
+.resource-select-panel .gantt_layout_content {
+  line-height: 35px;
+  text-align: right;
+  padding-right: 15px;
+  overflow: hidden !important;
+}
+.resource-select {
+  padding: 3px;
+  margin-left: 13px;
+}
+
+.column_overload .gantt_histogram_fill {
+  background-color: #ffa9a9;
+}
+
+.resource_task_cell .gantt_histogram_label {
+  font-weight: normal;
+}
+
+.slack {
+  position: absolute;
+  border-radius: 0;
+  opacity: 0.7;
+
+  border: none;
+  border-right: 1px solid #b6b6b6;
+  margin-left: -2px;
+  background: #b6b6b6;
+  background: repeating-linear-gradient(
+    45deg,
+    #ffffff,
+    #ffffff 5px,
+    #b6b6b6 5px,
+    #b6b6b6 10px
+  );
+}
+
+.baseline {
+  position: absolute;
+  border-radius: 2px;
+  opacity: 0.6;
+  margin-top: -9px;
+  height: 12px;
+  background: #ffd180;
+  border: 1px solid rgb(255, 153, 0);
+}
+
+.has-baseline,
+.slack {
+  margin-bottom: 7px;
+}
+.has-baseline,
+.gantt_line_wrapper {
+  margin-top: -9px;
+}
+.has-baseline,
+.gantt_side_content {
+  margin-bottom: 7px;
+}
+.has-baseline,
+.gantt_task_link .gantt_link_arrow {
+  margin-top: -12px;
+}
+.has-baseline,
+.gantt_side_content.gantt_right {
+  bottom: 0;
+}
+
+.gantt_marker {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+.overlay_visible .gantt_task_line,
+.overlay_visible .gantt_task_link {
+  opacity: 0.6;
+}
+
+.gantt_marker.today {
+  background: #ffb121;
+}
+
+.nested_task .gantt_add {
+  display: none !important;
+}
+
+.highlighted_row {
+  pointer-events: none;
+  background-color: #64c16e66;
+}
+
+.gantt_grid_head_add {
+  display: none !important;
+} */

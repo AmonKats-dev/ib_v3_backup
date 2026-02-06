@@ -1,0 +1,31 @@
+export default {
+    timeline: {
+        status: {
+            submit: 'Project Submitted',
+            approve: 'Approved',
+            revise: 'Revise',
+            reject: 'Rejected',
+        },
+        title: 'Flow of Approvals',
+        event_title: 'Project Status Information',
+        submitted: 'Project Submitted',
+        draft: 'Draft',
+        approved: 'Approved',
+        revised: 'Revise',
+        rejected: 'Rejected',
+        'in pipeline': 'In Pipeline',
+        completed: 'Completed',
+        assigned: 'Assigned',
+        by: 'by',
+        date: 'Date',
+        comments: 'Comments',
+        no_data: 'Creation of a project is in progress.',
+        phase: 'Phase',
+        files: 'Files',
+        not_pap_status: 'Waiting for DC decision',
+        hidden_phase_status: 'Approved at ',
+        in_pipeline: 'In Pipeline',
+        ongoing: 'Ongoing',
+        post_evaluation: 'Ex-Post Evaluation'
+    },
+}

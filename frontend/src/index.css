@@ -1,0 +1,169 @@
+/* @import '~font-awesome/css/font-awesome.min.css'; */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#docx {
+  font-size: 14px;
+}
+
+.ck.ck-editor__main > .ck-editor__editable {
+  height: 150px;
+}
+
+/* reports area */
+
+.pvtAxisLabel {
+  padding: 10px !important;
+}
+
+.pvtUi {
+  font-family: Helvetica;
+  max-width: 960px;
+  min-width: 350px;
+  overflow: auto;
+}
+
+.pvtAxisContainer li span.pvtAttr {
+  padding: 5px 10px !important;
+}
+
+.dhx_config_free .dhx_config_item:nth-child(1) > .item_body {
+  background: green;
+}
+.dhx_config_free .dhx_config_item:nth-child(2) > .item_body {
+  background: green;
+}
+
+.dhx_config_values .dhx_config_item:nth-child(1) > .item_body,
+.dhx_config_item:nth-child(1) > div.dhx_item-modes > select {
+  background: green;
+}
+.dhx_config_values .dhx_config_item:nth-child(2) > .item_body,
+.dhx_config_item:nth-child(2) > div.dhx_item-modes > select {
+  background: green;
+}
+
+
+/* .dhx_config_free .dhx_config_item:nth-child(1) > .item_body {
+  background: green;
+}
+.dhx_config_free .dhx_config_item:nth-child(2) > .item_body {
+  background: green;
+} */
+/* .dhx_config_free .dhx_config_item:nth-child(3) > .item_body {
+  background: green;
+}
+.dhx_config_free .dhx_config_item:nth-child(4) > .item_body {
+  background: green;
+}
+.dhx_config_free .dhx_config_item:nth-child(5) > .item_body {
+  background: green;
+} */
+/* .dhx_config_free .dhx_config_item:nth-child(6) > .item_body {
+  background: green;
+}
+.dhx_config_free .dhx_config_item:nth-child(7) > .item_body {
+  background: green;
+} */
+
+/* .dhx_config_values .dhx_config_item:nth-child(1) > .item_body,
+.dhx_config_item:nth-child(1) > div.dhx_item-modes > select {
+  background: green;
+}
+.dhx_config_values .dhx_config_item:nth-child(2) > .item_body,
+.dhx_config_item:nth-child(2) > div.dhx_item-modes > select {
+  background: green;
+} */
+/* .dhx_config_values .dhx_config_item:nth-child(3) > .item_body,
+.dhx_config_item:nth-child(3) > div.dhx_item-modes > select {
+  background: green;
+}
+.dhx_config_values .dhx_config_item:nth-child(4) > .item_body,
+.dhx_config_item:nth-child(4) > div.dhx_item-modes > select {
+  background: green;
+}
+.dhx_config_values .dhx_config_item:nth-child(5) > .item_body,
+.dhx_config_item:nth-child(5) > div.dhx_item-modes > select {
+  background: green;
+} */
+/* .dhx_config_values .dhx_config_item:nth-child(6) > .item_body,
+.dhx_config_item:nth-child(6) > div.dhx_item-modes > select {
+  background: green;
+}
+.dhx_config_values .dhx_config_item:nth-child(7) > .item_body,
+.dhx_config_item:nth-child(7) > div.dhx_item-modes > select {
+  background: green;
+} */
+
+.dhx_grid-footer-cell {
+  text-align: right;
+}
+
+div.dhx_footer-wrapper
+  > div.dhx_grid-footer
+  > div.dhx_footer-rows
+  > div
+  > div.dhx_grid-footer-cell.dhx_grid-header-cell--align_left.dhx_grid-sortable.dhx_first-column-cell
+  > div
+  > div {
+  text-align: left;
+}
+
+.dhx_config_item:hover {
+  opacity: 0.6;
+}
+
+.dhx_config_item .item_body--disabled {
+  color: inherit;
+  cursor: pointer;
+  background: #3ca0e2;
+}
+
+.dhx_config_item .item_body--disabled:hover {
+  color: inherit;
+  cursor: pointer;
+  background: #3ca0e2;
+}
+.dhx_config_item .item_body--disabled:hover .dhx_item_filter {
+  background-color: inherit;
+  color: hsla(0, 0%, 100%, 0.3);
+  cursor: pointer;
+}
+
+.list-page > .MuiToolbar-regular {
+  min-height: 0;
+  padding-top: 0 !important;
+}
+.show-page > .MuiToolbar-regular {
+  min-height: 0;
+  padding-top: 0 !important;
+}
+.edit-page > .MuiToolbar-regular {
+  min-height: 0;
+  padding-top: 0 !important;
+}
+
+.report-page > .MuiToolbar-regular {
+  min-height: 65px;
+  padding-top: 0 !important;
+}
+
+.transparent {
+  background-color: transparent !important;
+}
+
+.ck-content .table {
+  width: 100% !important;
+}

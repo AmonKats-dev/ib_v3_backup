@@ -1,0 +1,23 @@
+export default {
+  projectSteps: {
+    SUMMARY: "Summary",
+    RESPONSIBLE_OFFICER: "Responsible Officer",
+    PROJECT_BACKGROUND: "Project Background",
+    PROJECT_FRAMEWORK: "Project Framework",
+    DEMAND_ANALYSIS: "Demand Analysis",
+    OPTIONS_ANALYSIS: "Options Analysis",
+    PROJECT_APPRAISAL: "Project Appraisal",
+    FIN_ANALYSIS: "Fin&Econ Analysis",
+    COST: "Costs",
+    RESULT_MATRIX: "Result Matrix",
+    MODULES: "Modules",
+    ADDITIONAL_INFO: "Additional information",
+    OM_COSTS: "O&M Cost",
+    INTRODUCTION: "Introduction",
+    ME_REPORT: "M&E Report",
+    EX_POST_EVALUATION: "Ex-Post Evaluation",
+    BENEFICIARY: "Beneficiary",
+    STRATEGIC_ALIGNMENT: "StrategicAlignment",
+    BEHAVIOR_CHANGE: "Behavior Change"
+  },
+};

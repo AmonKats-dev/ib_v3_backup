@@ -1,0 +1,16 @@
+.export-buttons-container {
+    position: absolute;
+    margin-left: 15px;
+    right: 25px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+    color: #49bdef;
+
+    .fa:hover{
+        cursor: pointer;
+        font-weight: bold;
+    }
+}

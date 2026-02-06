@@ -1,0 +1,170 @@
+import moment from "moment";
+import React from "react";
+import {
+  SimpleForm,
+  TextInput,
+  DateInput,
+  useDataProvider,
+  SelectInput,
+  useTranslate,
+  required,
+} from "react-admin";
+import { QUARTERS } from "../../../constants/common";
+import { getFiscalYearsRangeForIntervals } from "../../../helpers/formatters";
+import CustomInput from "../../components/CustomInput";
+import CustomToolbar from "../../components/CustomToolbar";
+
+const HumanResourcesEditForm = ({ projectDetails, project, ...props }) => {
+  const [dateRange, setDateRange] = React.useState([]);
+  const dataProvider = useDataProvider();
+
+  React.useEffect(() => {
+    dataProvider
+      .getOne("project-details", {
+        id: props.record?.project_detail_id,
+      })
+      .then((resp) => {
+        if (resp && resp.data) {
+          const { start_date, end_date } = resp.data;
+          setDateRange(getFiscalYearsRangeForIntervals(start_date, end_date));
+        }
+      });
+  }, []);
+
+  const translate = useTranslate();
+  const LEVELS = [
+    {
+      id: "LOW",
+      name: translate(
+        "resources.project_options.fields.analytical_modules.risk_evaluations.levels.low"
+      ),
+    },
+    {
+      id: "MEDIUM",
+      name: translate(
+        "resources.project_options.fields.analytical_modules.risk_evaluations.levels.medium"
+      ),
+    },
+    {
+      id: "HIGH",
+      name: translate(
+        "resources.project_options.fields.analytical_modules.risk_evaluations.levels.high"
+      ),
+    },
+  ];
+  return (
+    <SimpleForm
+      {...props}
+      toolbar={
+        <CustomToolbar projectDetailId={props.record?.project_detail_id} />
+      }
+      sanitizeEmptyValues={false}
+      redirect="show"
+    >
+      <CustomInput
+        tooltipText={"tooltips.resources.human-resources.fields.reporting_date"}
+        fullWidth
+      >
+        <SelectInput
+          variant="outlined"
+          margin="none"
+          options={{
+            fullWidth: "true",
+          }}
+          source={"reporting_date"}
+          choices={dateRange}
+          parse={(value) =>
+            value && moment(value).startOf("year").format("YYYY-MM-DD")
+          }
+          format={(value) => value && moment(value).format("YYYY")}
+          validate={required()}
+        />
+      </CustomInput>
+      <CustomInput
+        tooltipText={
+          "tooltips.resources.human-resources.fields.reporting_quarter"
+        }
+        fullWidth
+      >
+        <SelectInput
+          variant="outlined"
+          margin="none"
+          options={{
+            fullWidth: "true",
+          }}
+          source={"reporting_quarter"}
+          choices={QUARTERS}
+          validate={required()}
+        />
+      </CustomInput>
+      <CustomInput
+        tooltipText={"tooltips.resources.human-resources.fields.name"}
+        fullWidth
+      >
+        <TextInput
+          source="name"
+          variant="outlined"
+          margin="none"
+          validate={required()}
+        />
+      </CustomInput>
+
+      <CustomInput
+        tooltipText={"tooltips.resources.human-resources.fields.position"}
+        fullWidth
+      >
+        <TextInput
+          source="position"
+          variant="outlined"
+          margin="none"
+          validate={required()}
+        />
+      </CustomInput>
+      <CustomInput
+        tooltipText={
+          "tooltips.resources.human-resources.fields.contact_details"
+        }
+        fullWidth
+      >
+        <TextInput
+          source="contact_details"
+          variant="outlined"
+          margin="none"
+          validate={required()}
+        />
+      </CustomInput>
+      <CustomInput
+        tooltipText={
+          "tooltips.resources.human-resources.fields.responsible_entity"
+        }
+        fullWidth
+      >
+        <TextInput
+          source="responsible_entity"
+          variant="outlined"
+          margin="none"
+          validate={required()}
+        />
+      </CustomInput>
+      <CustomInput
+        tooltipText={
+          "tooltips.resources.human-resources.fields.involvement_level"
+        }
+        fullWidth
+      >
+        <SelectInput
+          variant="outlined"
+          margin="none"
+          options={{
+            fullWidth: "true",
+          }}
+          source={"involvement_level"}
+          choices={LEVELS}
+          validate={required()}
+        />
+      </CustomInput>
+    </SimpleForm>
+  );
+};
+
+export default HumanResourcesEditForm;

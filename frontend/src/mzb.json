@@ -1,0 +1,614 @@
+{
+    "organizational_config": {
+        "1": {
+            "id": "sector",
+            "name": "sector",
+            "translation_key": "sectors"
+        },
+        "2": {
+            "id": "vote",
+            "name": "vote",
+            "translation_key": "votes"
+        },
+        "3": {
+            "id": "vote-function",
+            "name": "vote-function",
+            "translation_key": "vote-functions"
+        }
+    },
+    "functions_config": {
+        "1": {
+            "id": "function",
+            "name": "Directorate",
+            "translation_key": "function"
+        }
+    },
+    "programs_config": {
+        "1": {
+            "id": "program",
+            "name": "Programs",
+            "translation_key": "program"
+        }
+    },
+    "fund_config": {
+        "1": {
+            "id": "fund",
+            "name": "Fund",
+            "translation_key": "fund"
+        },
+        "2": {
+            "id": "fund_source",
+            "name": "Fund Source",
+            "translation_key": "fund_source"
+        }
+    },
+    "cost_config": {
+        "1": {
+            "id": "cost_category",
+            "name": "Cost Category",
+            "translation_key": "cost_category"
+        },
+        "2": {
+            "id": "cost_classification",
+            "name": "Cost Classification",
+            "translation_key": "cost_classification"
+        }
+    },
+    "location_config": {
+        "1": {
+            "id": "central",
+            "name": "Location Name",
+            "translation_key": "central"
+        }
+    },
+    "permissions_config": {
+        "approve_project": "approve_project",
+        "create_costing": "create_costing",
+        "create_country": "create_country",
+        "create_currency": "create_currency",
+        "create_currency_rate": "create_currency_rate",
+        "create_cycle": "create_cycle",
+        "create_file_type": "create_file_type",
+        "create_fund": "create_fund",
+        "create_location": "create_location",
+        "create_organization": "create_organization",
+        "create_phase": "create_phase",
+        "create_program": "create_program",
+        "create_project": "create_project",
+        "create_role": "create_role",
+        "create_unit": "create_unit",
+        "create_user": "create_user",
+        "create_user_role": "create_user_role",
+        "create_workflow": "create_workflow",
+        "delete_costing": "delete_costing",
+        "delete_country": "delete_country",
+        "delete_currency": "delete_currency",
+        "delete_currency_rate": "delete_currency_rate",
+        "delete_cycle": "delete_cycle",
+        "delete_file_type": "delete_file_type",
+        "delete_fund": "delete_fund",
+        "delete_location": "delete_location",
+        "delete_media": "delete_media",
+        "delete_notification": "delete_notification",
+        "delete_organization": "delete_organization",
+        "delete_phase": "delete_phase",
+        "delete_program": "delete_program",
+        "delete_project": "delete_project",
+        "delete_role": "delete_role",
+        "delete_unit": "delete_unit",
+        "delete_user": "delete_user",
+        "delete_user_role": "delete_user_role",
+        "delete_workflow": "delete_workflow",
+        "edit_costing": "edit_costing",
+        "edit_country": "edit_country",
+        "edit_currency": "edit_currency",
+        "edit_currency_rate": "edit_currency_rate",
+        "edit_cycle": "edit_cycle",
+        "edit_file_type": "edit_file_type",
+        "edit_fund": "edit_fund",
+        "edit_location": "edit_location",
+        "edit_organization": "edit_organization",
+        "edit_phase": "edit_phase",
+        "edit_program": "edit_program",
+        "edit_project": "edit_project",
+        "edit_role": "edit_role",
+        "edit_unit": "edit_unit",
+        "edit_user": "edit_user",
+        "edit_user_role": "edit_user_role",
+        "edit_workflow": "edit_workflow",
+        "list_activities": "list_activities",
+        "list_building_blocks": "list_building_blocks",
+        "list_costings": "list_costings",
+        "list_countries": "list_countries",
+        "list_currencies": "list_currencies",
+        "list_currency_rate_rates": "list_currency_rate_rates",
+        "list_cycles": "list_cycles",
+        "list_economic_evaluations": "list_economic_evaluations",
+        "list_file_types": "list_file_types",
+        "list_financial_evaluations": "list_financial_evaluations",
+        "list_funds": "list_funds",
+        "list_implementing_agencies": "list_implementing_agencies",
+        "list_indicators": "list_indicators",
+        "list_investments": "list_investments",
+        "list_locations": "list_locations",
+        "list_notifications": "list_notifications",
+        "list_organizations": "list_organizations",
+        "list_outcomes": "list_outcomes",
+        "list_outputs": "list_outputs",
+        "list_phases": "list_phases",
+        "list_programs": "list_programs",
+        "list_project_locations": "list_project_locations",
+        "list_project_options": "list_project_options",
+        "list_projects": "list_projects",
+        "list_responsible_officers": "list_responsible_officers",
+        "list_risk_evaluations": "list_risk_evaluations",
+        "list_roles": "list_roles",
+        "list_stakeholder_evaluations": "list_stakeholder_evaluations",
+        "list_stakeholders": "list_stakeholders",
+        "list_timeline": "list_timeline",
+        "list_units": "list_units",
+        "list_user_roles": "list_user_roles",
+        "list_users": "list_users",
+        "list_workflows": "list_workflows",
+        "reject_project": "reject_project",
+        "revise_project": "revise_project",
+        "submit_project": "submit_project",
+        "update_media": "update_media",
+        "upload_media": "upload_media",
+        "view_costing": "view_costing",
+        "view_country": "view_country",
+        "view_currency": "view_currency",
+        "view_currency_rate": "view_currency_rate",
+        "view_cycle": "view_cycle",
+        "view_file_type": "view_file_type",
+        "view_fund": "view_fund",
+        "view_high_risk_badge": "view_high_risk_badge",
+        "view_location": "view_location",
+        "view_notification": "view_notification",
+        "view_organization": "view_organization",
+        "view_phase": "view_phase",
+        "view_program": "view_program",
+        "view_project": "view_project",
+        "view_project_count_report": "view_project_count_report",
+        "view_report_builder": "view_report_builder",
+        "view_role": "view_role",
+        "view_unit": "view_unit",
+        "view_user": "view_user",
+        "view_user_role": "view_user_role",
+        "view_workflow": "view_workflow",
+        "list_me_reports": "list_me_reports",
+        "create_me_report": "create_me_report",
+        "view_me_report": "view_me_report",
+        "edit_me_report": "edit_me_report",
+        "list_me_outputs": "list_me_outputs",
+        "list_me_activities": "list_me_activities",
+        "list_me_releases": "list_me_releases",
+        "list_reports": "list_reports",
+        "view_gantt_chart": "view_gantt_chart",
+        "view_report_viewer": "view_report_viewer",
+        "view_project_report": "view_project_report"
+    },
+    "modules_config": {},
+    "application_config": {
+        "prefix": "mzb",
+        "project_steps": {
+            "infrastructure": {
+                "0": [
+                    "SUMMARY"
+                ],
+                "1": [
+                    "SUMMARY",
+                    "RESPONSIBLE_OFFICER",
+                    "BENEFICIARY",
+                    "PROJECT_BACKGROUND",
+                    "STRATEGIC_ALIGNMENT",
+                    "RESULT_MATRIX",
+                    "ADDITIONAL_INFO"
+                ],
+                "2": [
+                    "SUMMARY",
+                    "RESPONSIBLE_OFFICER",
+                    "BENEFICIARY",
+                    "PROJECT_BACKGROUND",
+                    "STRATEGIC_ALIGNMENT",
+                    "RESULT_MATRIX",
+                    "ADDITIONAL_INFO"
+                ],
+                "3": [
+                    "SUMMARY",
+                    "RESPONSIBLE_OFFICER",
+                    "BENEFICIARY",
+                    "PROJECT_BACKGROUND",
+                    "STRATEGIC_ALIGNMENT",
+                    "INTRODUCTION",
+                    "OPTIONS_ANALYSIS",
+                    "RESULT_MATRIX",
+                    "ADDITIONAL_INFO"
+                ],
+                "4": [
+                    "SUMMARY",
+                    "RESPONSIBLE_OFFICER",
+                    "BENEFICIARY",
+                    "PROJECT_BACKGROUND",
+                    "STRATEGIC_ALIGNMENT",
+                    "INTRODUCTION",
+                    "OPTIONS_ANALYSIS",
+                    "OM_COSTS",
+                    "RESULT_MATRIX",
+                    "ADDITIONAL_INFO"
+                ],
+                "5": [
+                    "SUMMARY",
+                    "RESPONSIBLE_OFFICER",
+                    "BENEFICIARY",
+                    "PROJECT_BACKGROUND",
+                    "STRATEGIC_ALIGNMENT",
+                    "INTRODUCTION",
+                    "OPTIONS_ANALYSIS",
+                    "OM_COSTS",
+                    "RESULT_MATRIX",
+                    "ADDITIONAL_INFO"
+                ],
+                "6": [
+                    "EX_POST_EVALUATION"
+                ]
+            },
+            "simple_acquisition": {
+                "0": [
+                    "SUMMARY"
+                ],
+                "1": [
+                    "SUMMARY",
+                    "RESULT_MATRIX",
+                    "STRATEGIC_ALIGNMENT",
+                    "OPTIONS_APPRAISAL",
+                    "OM_COSTS"
+                ]
+            }
+        }
+    },
+    "features_config": {
+        "project_title_duplication_ckeck": {
+            "is_global": false
+        },
+        "project_result_matrix_has_max_2_outcomes": {
+            "is_global": true
+        },
+        "project_implementing_agencies_multiple": {
+            "is_global": true
+        },
+        "project_additional_attachments": {
+            "is_global": true
+        },
+        "project_stakeholders_multiple": {
+            "is_global": true
+        },
+        "project_organization_study_phase_title": {
+            "step": 3
+        },
+        "project_options_building_blocks_show": {
+            "step": [
+                3
+            ]
+        },
+        "project_options_disable_change": {
+            "step": [
+                4,
+                5
+            ]
+        },
+        "project_options_disable_input": {
+            "step": [
+                5
+            ]
+        },
+        "project_options_change_modality_title": {
+            "step": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "project_result_matrix_indicators_show": {
+            "step": 1
+        },
+        "project_result_matrix_outputs_investments_show": {
+            "step": 1
+        },
+        "project_result_matrix_goals_indicators_show": {
+            "step": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "project_result_matrix_outcomes_indicators_show": {
+            "step": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "project_result_matrix_outputs_indicators_show": {
+            "step": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "project_result_matrix_activity_show": {
+            "step": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "report_submission_dates_show": {
+            "step": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "project_report_total_cost_show": {
+            "step": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "project_report_submission_dates_for_phases": {
+            "step": [
+                3,
+                4,
+                5
+            ]
+        },
+        "project_report_organization_study_change_title": {
+            "step": 3
+        },
+        "project_report_me_form_report_select_show": {
+            "step": 6
+        },
+        "project_actions_create_me_form": {
+            "step": 6
+        },
+        "project_options_best_item_validation": {
+            "step": [
+                3,
+                4,
+                5
+            ]
+        },
+        "project_options_validate_preferred_item": {
+            "step": [
+                3,
+                4,
+                5
+            ]
+        },
+        "project_options_validate_mandatory_fields": {
+            "step": [
+                3,
+                4,
+                5
+            ]
+        },
+        "project_create_submission_button_show": {
+            "step": 0
+        },
+        "project_options_max_three_shortlisted_items": {
+            "step": 2
+        },
+        "project_options_max_one_preferred_items": {
+            "step": 3
+        },
+        "project_actions_export": {
+            "is_global": true
+        },
+        "project_actions_timeline": {
+            "is_global": true
+        },
+        "mandatory_files_in_timeline": {
+            "step": [
+                1
+            ]
+        },
+        "project_result_matrix_baseline_show": {
+            "step": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "validate_options": {
+            "step": [
+                3,
+                4,
+                5
+            ]
+        },
+        "validate_option_modules": {
+            "step": [
+                3,
+                4,
+                5
+            ]
+        },
+        "project_stakeholders_show": {
+            "step": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "project_om_cost_show": {
+            "step": [
+                4,
+                5
+            ]
+        },
+        "project_defect_liability_show": {
+            "step": [
+                4,
+                5
+            ]
+        },
+        "project_executive_summary_show": {
+            "step": [
+                3,
+                4,
+                5
+            ]
+        },
+        "export_project_word": {
+            "is_global": true
+        },
+        "project_actions_comments": {
+            "is_global": true
+        },
+        "is_password_expirable": {
+            "is_global": true,
+            "params": {
+                "expiration_period": 30
+            }
+        },
+        "project_MDA_government_agencies": {
+            "is_global": true
+        },
+        "project_has_government_agencies": {
+            "is_global": true
+        },
+        "project_locations_multiple": {
+            "is_global": true
+        },
+        "project_show_high_risk_alert": {
+            "is_global": true
+        },
+        "project_change_step_label_option": {
+            "step": [
+                3,
+                4,
+                5
+            ]
+        },
+        "project_exec_management_plan_title_change": {
+            "step": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "project_implementing_strategies_show": {
+            "step": 6
+        },
+        "project_has_programs": {
+            "is_global": true
+        },
+        "has_topbar_information_block": {
+            "is_global": true
+        },
+        "has_projects_pipeline_report": {
+            "is_global": true
+        },
+        "has_project_cost_evolution_report": {
+            "is_global": true
+        },
+        "has_costs_and_counts_report": {
+            "is_global": true
+        },
+        "has_projects_ranking_report": {
+            "is_global": true
+        },
+        "has_projects_waiting_actions_report": {
+            "is_global": true
+        },
+        "has_stagnant_projects_report": {
+            "is_global": true
+        },
+        "has_repeated_projects_report": {
+            "is_global": true
+        },
+        "has_ibp_usage_report": {
+            "is_global": true
+        },
+        "has_projects_scheduled_dc_report": {
+            "is_global": true
+        },
+        "has_projects_for_pap_report": {
+            "is_global": true
+        },
+        "has_donors_projects_report": {
+            "is_global": true
+        },
+        "has_submitted_projects_report": {
+            "is_global": true
+        },
+        "project_om_cost_drop_down_selection": {
+            "is_global": true
+        },
+        "project_options_has_single_form": {
+            "step": [
+                4,
+                5
+            ]
+        },
+        "has_waiting_projects_report": {
+            "is_global": true
+        },
+        "project_options_validate_options": {
+            "step": [
+                3,
+                4,
+                5
+            ]
+        },
+        "project_has_functions": {
+            "is_global": true
+        },
+        "project_show_capital_current_ratio": {
+            "step": [
+                2,
+                3,
+                4,
+                5
+            ]
+        },
+        "has_projects_categories_report": {
+            "is_global": true
+        },
+        "has_reset_password_page": {
+            "is_global": true
+        },
+        "has_pipeline_report": {
+            "is_global": true,
+            "value": 4
+        },
+        "has_multiple_om_costs": {
+            "is_global": true
+        },
+        "project_title_change_enable": {
+            "step": [
+                1,
+                2
+            ]
+        },
+        "project_responsible_officer_multiple": {
+            "is_global": true
+        },
+        "has_esnip_fields": {
+            "is_global": true
+        }
+    }
+}
