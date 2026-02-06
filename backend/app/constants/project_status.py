@@ -1,0 +1,16 @@
+from enum import Enum
+
+
+class ProjectStatus(Enum):
+    DRAFT = 'Draft'  # Changed from 'DRAFT' to 'Draft' to match database values
+    SUBMITTED = 'SUBMITTED'
+    APPROVED = 'APPROVED'
+    CONDITIONALLY_APPROVED = 'CONDITIONALLY_APPROVED'
+    REVISED = 'REVISED'
+    REJECTED = 'REJECTED'
+    ASSIGNED = 'ASSIGNED'
+    COMPLETED = 'COMPLETED'
+    ONGOING = 'ONGOING'
+    SUSPENDED = 'SUSPENDED'
+    IN_PIPELINE = 'IN_PIPELINE'
+    POST_EVALUATION = 'POST_EVALUATION'

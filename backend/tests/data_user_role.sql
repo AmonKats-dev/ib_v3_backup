@@ -1,0 +1,2 @@
+INSERT INTO `user_role` (`id`, `user_id`, `role_id`, `allowed_organization_ids`, `allowed_project_ids`, `created_on`, `modified_on`, `created_by`, `modified_by`,`is_approved`, `is_delegated`) VALUES
+(1, 1, 1, NULL, NULL, NULL, NULL, 1, NULL, 1, 0);

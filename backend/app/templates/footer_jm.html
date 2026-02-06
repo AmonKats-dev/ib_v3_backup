@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang='en-US'>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script>
+    function subst() {
+      var vars = {};
+      var x = document.location.search.substring(1).split('&');
+      for (var i in x) {
+        var z = x[i].split('=', 2);
+        vars[z[0]] = unescape(z[1]);
+      }
+      var x = ['frompage', 'topage', 'page', 'webpage', 'section', 'subsection', 'subsubsection'];
+      for (var i in x) {
+        var y = document.getElementsByClassName(x[i]);
+        for (var j = 0; j < y.length; ++j) y[j].textContent = vars[x[i]];
+
+        if (vars['page'] == 1) {
+          document.getElementById("footer_content").style.display = 'none';
+        }
+      }
+    }
+    </script>
+    <style>
+      .footer {
+        font-size: 12px
+      }
+      footer-left {
+        text-align: left;
+        width: 50pt;
+      }
+      .footer-center {
+        text-align: left;
+      }
+      .footer-right {
+        text-align: right;
+        float: right;
+      }
+      .footer_img {
+        margin-right: 10px;
+      }
+      .footer_img img {
+        padding-right: 30px;
+        width: 45px;
+        height: 45px;
+      }
+    </style>
+  </head>
+  <body onload="subst()">
+    <div id="footer_content" style="border-top: 1px solid black;" class="footer" >
+      <table width="100%">
+        <tr>
+          <td class="footer-left" style="padding-top: 5px; width: 50px;">
+            <div class="footer_img ">
+              <img src="http://pimis-demo.torusline.com/assets/images/jm/coat_of_arms.png" />
+            </div>
+          </td>
+          <td style="padding-top: 10px;">
+            This is a property of the Government of Jamaica
+          </td>
+          <td class="footer-center"></td>
+          <td style="text-align:right">
+            <div class="pagenum-container">
+              <p>Page <span class="page"></span> of <span class="topage"></span></p>
+            </div>
+          </td>
+        </tr>
+      </table>
+  </div>
+  </body>
+</html>

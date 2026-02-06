@@ -1,0 +1,3 @@
+INSERT INTO `user` (`id`, `created_on`, `created_by`, `modified_on`, `modified_by`, `username`, `password`, `full_name`, `password_changed_on`, `is_blocked`, `email`, `phone`) VALUES
+(1, NULL, 1, NULL, NULL, 'test', '$pbkdf2-sha256$29000$y/lf6/0/p3TOmZMyxthbyw$EDo/LNVEXi9bmqnSrao.Lz4J0x5jhcV7ECbn3HYpd0k', 'John Doe', '2020-08-12 14:52:19', 0, 'test@test.com', '11111'),
+(2, NULL, 1, NULL, NULL, 'test2', '$pbkdf2-sha256$29000$y/lf6/0/p3TOmZMyxthbyw$EDo/LNVEXi9bmqnSrao.Lz4J0x5jhcV7ECbn3HYpd0k', 'Jane Doe', '2020-08-12 14:52:19', 0, 'test2@test.com', '22222');
